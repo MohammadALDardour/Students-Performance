@@ -46,12 +46,12 @@ class CustomData:
         try:
             custom_data = {
                 "gender": [self.gender],
-                "race/ethnicity": [self.race_ethnicity],  # Updated column name
-                "parental level of education": [self.parental_level_of_education],  # Updated column name
+                "race/ethnicity": [self.race_ethnicity],  
+                "parental level of education": [self.parental_level_of_education],  
                 "lunch": [self.lunch],
-                "test preparation course": [self.test_preparation_course],  # Updated column name
-                "reading score": [self.reading_score],  # Ensure consistency with previous fix
-                "writing score": [self.writing_score]   # Ensure consistency with previous fix
+                "test preparation course": [self.test_preparation_course],  
+                "reading score": [self.reading_score],  
+                "writing score": [self.writing_score]   
             }
 
             return pd.DataFrame(custom_data)
